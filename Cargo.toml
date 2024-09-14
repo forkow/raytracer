@@ -1,0 +1,15 @@
+[package]
+name = "raytracer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fast-math = "0.1.1"
+fastrand = "2.0.1"
+image = "0.25.2"
+nalgebra = "0.32.3"
+
+[profile.release]
+opt-level = 3
+overflow-checks = false
+# lto = true

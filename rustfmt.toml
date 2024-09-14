@@ -1,0 +1,12 @@
+max_width = 80
+binop_separator = "Back"
+combine_control_expr = false
+force_multiline_blocks = true
+format_macro_matchers = true
+format_macro_bodies = true
+hex_literal_case = "Upper"
+newline_style = "Unix"
+imports_granularity = "Crate"
+overflow_delimited_expr = true
+remove_nested_parens = true
+group_imports = "StdExternalCrate"
